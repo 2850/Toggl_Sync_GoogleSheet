@@ -1,0 +1,1 @@
+pyinstaller ./Toggl_Sync_Google.spec
