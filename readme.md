@@ -45,7 +45,7 @@ graph TB;
 
 ## TogglSyncGoogle 使用方法
 
-1. [[設定教學]]
+1. 請跟著[設定教學](doc/setting.md)
 2. 點選 Toggl_Sync_Google.exe
 3. 選擇想要的從Toggl Track 同步到google sheet 日期區間
 	1. 注意：結束日期 +1 Day才會是你想要的日期，例如想要同步3/8~3/10，請選擇3/11
