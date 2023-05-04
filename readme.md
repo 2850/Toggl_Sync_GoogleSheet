@@ -59,6 +59,11 @@ graph TB;
 
 ![圖 6](resource/20230308115326.png)  
 
+結合LooK Studio 可以用來管理團隊或個人工作日誌
+
+![picture 1](images/15e8a572c5e9f64c4f1079ad8883810aa955ad1f8254d094ea999898661a7c90.png)  
+
+
 ### 🏠 [Homepage](https://github.com/2850/Toggl_Sync_GoogleSheet#readme)
 
 ### ✨ [Demo](https://github.com/2850/Toggl_Sync_GoogleSheet#readme)
