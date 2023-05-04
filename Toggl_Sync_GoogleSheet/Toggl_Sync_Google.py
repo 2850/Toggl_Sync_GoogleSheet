@@ -52,10 +52,13 @@ def __sync(s_date: datetime.date, e_date: datetime.date):
             insert_log('【App】輸入格式錯誤。 ex:yyyy-mmdd-yyyy-mmdd')
             sys.exit(1)
 
+        # print("當前工作目錄是：", current_dir,'Toggl_sync_Google\\','Toggl.ini')  
+ 
         # 讀取設定檔案
         togglpyhelper = togglpy()
         insert_log('【App】讀取設定檔資料中...')
-        togglpyhelper._LoadingSetting()
+
+        # togglpyhelper._LoadingSetting()
         togglpyhelper._syncprofile()
         insert_log('【App】讀取設定檔完畢')
         insert_log("【App】月份範圍：{s_date} - {e_date}".format(s_date=str(s_date),

@@ -35,7 +35,7 @@ graph TB;
     A[Toggle Track] -- Sync -->B[Toggl_Sync_Google.exe];
 
     B --Sync-->C[Google Sheet]
-	C --> D[Looker Studio]
+ C --> D[Looker Studio]
 
 ```
 
@@ -48,9 +48,9 @@ graph TB;
 1. 請跟著[設定教學](doc/setting.md)
 2. 點選 Toggl_Sync_Google.exe
 3. 選擇想要的從Toggl Track 同步到google sheet 日期區間
-	1. 注意：結束日期 +1 Day才會是你想要的日期，例如想要同步3/8~3/10，請選擇3/11
-	2. 系統會以30分鐘為基準，>30 分鐘 以一小時計算，< 30分鐘不列入計算
-	3. 確保每個任務設定 Client、Project、Tag，否則無法同步成功
+1. 注意：結束日期 +1 Day才會是你想要的日期，例如想要同步3/8~3/10，請選擇3/11
+2. 系統會以30分鐘為基準，>30 分鐘 以一小時計算，< 30分鐘不列入計算
+3. 確保每個任務設定 Client、Project、Tag，否則無法同步成功
 4. 按下同步按鈕同步成功。
 
 ![圖 5](resource/20230308115126.png)  
@@ -59,19 +59,17 @@ graph TB;
 
 ![圖 6](resource/20230308115326.png)  
 
-
 ### 🏠 [Homepage](https://github.com/2850/Toggl_Sync_GoogleSheet#readme)
 
 ### ✨ [Demo](https://github.com/2850/Toggl_Sync_GoogleSheet#readme)
-
 
 ## Author
 
 👤 **Willis.Ko**
 
-* Website: https://willis-note.vercel.app/
-* Twitter: [@ke\_wei88283](https://twitter.com/ke\_wei88283)
-* Github: [@2850](https://github.com/2850)
+- Website: <https://willis-note.vercel.app/>
+- Twitter: [@ke\_wei88283](https://twitter.com/ke\_wei88283)
+- Github: [@2850](https://github.com/2850)
 
 ## Show your support
 

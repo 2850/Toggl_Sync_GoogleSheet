@@ -57,8 +57,11 @@ class togglpy:
         self.TOGGL_USERNAME = ""
         self.TOGGL_TOKEN = ""
         self.__auth = ""
+        self.PROJECTNAME = 'Toggl_Sync_GoogleSheet'
 
-        self._LoadingSetting()
+        # '.\Toggl_Sync_GoogleSheet\Toggl.ini'
+        inifilepath=(".\{}\{}".format(self.PROJECTNAME,'Toggl.ini'))  
+        self._LoadingSetting(inifilepath=inifilepath)
         # self.__auth = HTTPBasicAuth(self.TOGGL_TOKEN, 'api_token')
         self._syncprofile()
 
@@ -97,7 +100,7 @@ class togglpy:
         self.GOOGLE_SHEET_NAME = configA["googlesheetname"]
 
         # 'n8n-willis-da99ff5fb91d.json'
-        self.AUTH_JSON_PATH = configA["AUTH_JSON_PATH"]
+        self.AUTH_JSON_PATH = ".\{}\{}".format(self.PROJECTNAME,configA["AUTH_JSON_PATH"])
         self.GSS_SCOPES = [configA["GSS_SCOPES"]]
         # '1sV1IH0lxNTUkMLDLwwcQ1oIiQtJ8VY-ruXyw6vdf-hI'   # 2023
         self.SHEETKEY = configA["SHEETKEY"]
