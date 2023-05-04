@@ -63,6 +63,12 @@ graph TB;
 
 ### ✨ [Demo](https://github.com/2850/Toggl_Sync_GoogleSheet#readme)
 
+
+## Todo List
+
+- [ ] googlesheet申請步驟
+- [ ] 確認macOS可以順利執行
+
 ## Author
 
 👤 **Willis.Ko**
